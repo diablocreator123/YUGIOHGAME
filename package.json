@@ -1,0 +1,11 @@
+{
+  "name": "ninja-arena-alpha",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/engine.test.js && node scripts/run-browser.js",
+    "test:browser": "node scripts/run-browser.js",
+    "serve": "node scripts/serve.js"
+  }
+}
